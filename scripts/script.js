@@ -1,5 +1,10 @@
+/////
+/////main section
+
 window.onload = chooseRandomPictures;
-displayWinner();
+
+/////
+/////
 
 img1=document.getElementById("img1");
 
@@ -30,15 +35,17 @@ random_index_img2=getRandom(0,5);
 
 img2.src=dices[random_index_img2];
 
-    if(random_index_img1 > random_index_img2)
+if(random_index_img1 > random_index_img2)
 
-        header.innerHTML=" Player 1 Wins!";
+        header.innerHTML="🚩 Player 1 Wins!";
 
-    else if(random_index_img1 < random_index_img2)
+else if(random_index_img1 < random_index_img2)
 
-        header.innerHTML=" Player 2 Wins!";
+        header.innerHTML="🚩 Player 2 Wins!";
 
-    else header.innerHTML="Draw!";
+     else
+
+         header.innerHTML="Draw!";
 
 }
 
