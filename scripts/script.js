@@ -21,7 +21,7 @@ function getRandom(min, max) {    //function to give random integer between 2 va
 
 //dices is an array to store the images
 
-var dices = ["../images/dice1.png","../images/dice2.png","../images/dice3.png","../images/dice4.png","../images/dice5.png","../images/dice6.png"];
+var dices = ["../assets/dice1.png","../assets/dice2.png","../assets/dice3.png","../assets/dice4.png","../assets/dice5.png","../assets/dice6.png"];
 
 var random_index_img1 , random_index_img2 ;
 
